@@ -1,0 +1,39 @@
+target/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Editor / IDE
+.idea/
+.vscode/
+
+# Tooling caches
+.claude/
+
+# Reference clones for understanding upstream codebases
+gotgcall_reference/
+.refs/
+
+# Backup files
+**/*.rs.bk
+*.log
+.DS_Store
+
+# Agent config
+.agents/
+
+# Local session files for the example bot
+examples/bot/session.dat
+examples/bot/*.session
+
+# Local benchmark testing suite (untracked)
+benchmark/
+
+# Local integration testing runner (untracked)
+test_runner/
+test_bot/
+tests/
+*.session
+session.dat
